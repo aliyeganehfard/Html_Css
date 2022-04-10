@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, serif;
+}
+
+.parent {
+    display: inline-flex;
+}
+
+.left {
+    width: 25%;
+    float: left;
+    padding: 50px 50px 0 50px;
+}
+img{
+    width: 100%;
+    height: 35%;
+    border-radius: 50%;
+}
+.name{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+.designer{
+    margin-top: -25px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+i{
+    padding-top: 10px;
+    width: 18%;
+    padding-bottom: 25px;
+}
+.right {
+    width: 75%;
+    float: right;
+    padding: 50px 50px 0 50px;
+    /*padding: 70px 60px 60px 50px;*/
+}
+
+.leftBG {
+    background: dodgerblue;
+}
+
+.rightBG {
+    /*background: darkcyan;*/
+}
+h1{
+    padding-top: 20px;
+    color: white;
+}
+h2 {
+    color: red;
+    padding-bottom: 35px;
+}
+h3{
+    color: white;
+}
+p {
+    font-size: 22px;
+}
+
+.about {
+    text-align: justify;
+    color: #3b3b3b;
+    padding-bottom: 35px;
+}
+.final{
+    padding-top: 40px;
+}
+.photoshop {
+    width: 50%;
+    float: left;
+    background: white;
+
+}
+
+.illustrator {
+    width: 50%;
+    float: right;
+}
+
+.career {
+    display: inline;
+    margin: 0;
+    padding-right: 60%;
+    color: #3b3b3b;
+}
+
+.number {
+    text-align: end;
+    display: inline;
+    color: #64748B;
+}
