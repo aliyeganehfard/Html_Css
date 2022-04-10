@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: auto;
+        }
+        div{
+            margin-top: 50px;
+            width: 30%;
+        }
+        input , textarea , label{
+            width: 70%;
+        }
+        input , textarea{
+            float: right;
+        }
+        textarea, label{
+            display: inline;
+        }
+        label{
+            vertical-align: top;
+        }
+        .button{
+            margin-top: 10px;
+            margin-right: 20%;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form>
+        <label for="name">name :</label>
+        <input id="name" type="text">
+        <br>
+        <br>
+        <label for="email">email :</label>
+        <input id="email" type="email">
+        <br>
+        <br>
+        <label for="txt">Message :</label>
+        <textarea id="txt" cols="5" rows="10"></textarea>
+        <input class="button" type="submit" value="send your massage">
+    </form>
+</div>
+</body>
+</html>
